@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+
 using namespace std;
 
 int main () {
@@ -32,13 +33,14 @@ for(int x = 1; x<= 40; x++){
 cout << bin + (rand() % 100000)<<endl;
 }
 }
-else if(num == 50){
+else if(num ==  50){
 for(int x = 1; x<= 50; x++){
 cout << bin + (rand() % 100000)<<endl;
 }
 }
 else{
-cout<<"INVALID!!!!";
+cout<<"❌INVALID❌";
 }
 return 0;
 }
+//End
